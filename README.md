@@ -57,6 +57,9 @@ Après une simulation de charge, on observe une élévation significative des m�
 
 ![Dashboard après afflux](captures/Apres_requests.png)
 
+
+![Dashboard Pendant afflux échelle 5 min](captures/High_FLUX_5m.png)
+Pendant une simulation de charge, avec un autre graphique montrant le nombre de requête http (donc de vue sur un site) sur 5 minutes on constate une variation, cependant on remarque un impact moinns élevé (visuellement) sur nos équipements car basé sur un intervalle plus petit.
 ---
 
 ## Analyse FinOps avec Kubecost
