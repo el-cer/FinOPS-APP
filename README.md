@@ -46,8 +46,13 @@ Les fichiers de configuration Kubernetes se trouvent dans le dossier `k8s/` et p
 Voici une vue d'ensemble de leur rôle :
 Déploiment Via script Bash (Réflexion sur la mise en place de Jenkins pour faciliter le déploiement.)
 Les étape de deploiement sont:
+* Pour simplement l'application Flask 
 minikube start 
-docker build -t elcer/offre-api 
+docker build -t elcer/offre-api
+docker push elcer/offre-api
+kubectl create namespace offreapi
+kubectl apply -f k8s/
+kubectl get pods -n offreapi 
 
 * `deployment.yaml` : déploie l'application Flask dans un pod avec les ressources (requests/limits) pour l'analyse FinOps
 * `service-monitoring.yaml` : expose l'endpoint `/metrics` de l'API Flask via un ServiceMonitor pour Prometheus
