@@ -47,6 +47,7 @@ Cette capture montre le même dashboard **après afflux sur le site**, illustran
 ## 📊 Analyse FinOps via Kubecost
 
 ![Dashboard Kubecost](captures/kubecost.png)
+
 Voici un dashboard de notre visualisation des coûts simulés avec le modèle personnalisé (CPU, RAM, stockage). Nous avons relevé les coûts par pod et identifié les surprovisions.
 
 ---
