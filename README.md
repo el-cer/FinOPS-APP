@@ -12,7 +12,7 @@ Le projet intègre un monitoring complet **Prometheus + Grafana**, ainsi qu'une 
 
 ---
 
-## ⚙️ Stack technique
+## Stack technique
 
 * **Backend** : Flask, SQLAlchemy, PDF extraction (PyMuPDF)
 * **Base de données** : PostgreSQL
@@ -23,7 +23,7 @@ Le projet intègre un monitoring complet **Prometheus + Grafana**, ainsi qu'une 
 
 ---
 
-## 📊 Dashboards de monitoring Grafana
+## Dashboards de monitoring Grafana
 
 Voici à quoi ressemble un dashboard de monitoring Grafana sur notre cluster :
 
@@ -44,7 +44,7 @@ Cette capture montre le même dashboard **après afflux sur le site**, illustran
 
 ---
 
-## 📊 Analyse FinOps via Kubecost
+## Analyse FinOps via Kubecost
 
 ![Dashboard Kubecost](captures/Kubecost.png)
 
@@ -52,7 +52,7 @@ Voici un dashboard de notre visualisation des coûts simulés avec le modèle pe
 
 ---
 
-## 📅 Fonctionnalités principales
+## Fonctionnalités principales
 
 * Authentification (recruteur / candidat)
 * Publication d'offres d'emploi par les recruteurs
