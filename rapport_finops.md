@@ -60,7 +60,7 @@ Appliqué dans Kubecost (`Settings > Pricing configuration`).
 - CPU/RAM utilisés < 20 %
 - Coût CPU/min ~0.003 €
 
-📸 `captures/Avant_requests.png`
+![AVANT PIC](captures/Avant_requests.png)
 
 ---
 
@@ -70,8 +70,7 @@ Appliqué dans Kubecost (`Settings > Pricing configuration`).
 - CPU usage stabilisé à 60 %
 - Coût CPU/min ~0.01 €
 
-📸 `captures/Apres_requests.png`
-
+![APRES PICs](captures/Avant_requests.png)
 ---
 
 ## 7. Conclusion
