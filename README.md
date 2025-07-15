@@ -42,6 +42,9 @@ Voici les commandes de base utilisées :
 
 ```bash
 #!/bin/bash
+git clone https://github.com/Clement-tc/APP_AUTO 
+cd APP_AUTO
+docker pull python:3.11-slim
 minikube start 
 helm repo add kubecost https://kubecost.github.io/cost-analyzer/
 helm repo update
@@ -68,7 +71,7 @@ docker images | grep offre-api
 kubectl create namespace offreapi || true
 
 kubectl apply -f k8s/
-kubectl get pods -n offreapi
+kubectl get pods -n offreapi 
 ```
 
 L’application est ensuite accessible via NodePort ou port-forward. Prometheus scrape les métriques exposées par l’API Flask via un ServiceMonitor. Grâce aux `requests` définis dans les manifests, il est possible de suivre la consommation réelle des pods dans Grafana et Kubecost.
