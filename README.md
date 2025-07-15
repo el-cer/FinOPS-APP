@@ -1,4 +1,10 @@
 # FinOPS-APP
+GROUP 9:
+- Eliot Ceron
+- Théau Naudin
+- Clement Tchen
+- Firmin Yombo
+- Thibaut Schweitzer
 
 Lien du projet GitHub : [https://github.com/Clement-tc/APP\_AUTO/tree/main](https://github.com/Clement-tc/APP_AUTO/tree/main)
 
