@@ -36,8 +36,8 @@ Voici les commandes de base utilisées :
 
 ```bash
 minikube start
-docker build -t elcer/offre-api .
-docker push elcer/offre-api
+eval $(minikube docker-env)
+docker build -t offre-api .
 kubectl create namespace offreapi
 kubectl apply -f k8s/
 kubectl get pods -n offreapi
